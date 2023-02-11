@@ -1,0 +1,36 @@
+.footer-box {
+  width: 100%;
+  height: 216rpx;
+  position: fixed;
+  bottom: 0;
+  line-height: 216rpx;
+}
+/*底部大盒子*/
+.footer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/*底部左边盒子*/
+.footer-left {
+  text-align: center;
+  height: 100%;
+  /* position: relative; */
+}
+.footer-left-icon {
+  display:block;
+  width: 1.0625rem;
+  height: 1.0625rem;
+  margin-left: 40%;
+  margin-top: -30rpx;
+  /* position: absolute; */
+}
+
+
+/*底布中间按钮*/
+.footer-middle button{
+  background-color: #6ae1b9;
+  border-radius: 100rpx;
+}

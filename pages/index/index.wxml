@@ -1,0 +1,18 @@
+<!--pages/index/index.wxml-->
+<!-- <button bindtap="getOpenid">点击获取</button> -->
+<view class="footer-box">
+  <view class="footer">
+    <view class="footer-left">
+      <view class="footer-left-icon iconfont icon-mendianzuoye"></view>
+      <text class="footer-left-txt">附近门店</text>
+    </view>
+    <view class="footer-middle" bindtap="gotoSelect">
+      <button>扫码充电</button>
+    </view>
+    <view class="footer-right">
+      <text>个人中心</text>
+    </view>
+  </view>
+
+
+</view>

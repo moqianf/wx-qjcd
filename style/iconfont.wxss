@@ -1,0 +1,138 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3624182 */
+  src: url('//at.alicdn.com/t/c/font_3624182_2a58o99irju.woff2?t=1675851660753') format('woff2'),
+       url('//at.alicdn.com/t/c/font_3624182_2a58o99irju.woff?t=1675851660753') format('woff'),
+       url('//at.alicdn.com/t/c/font_3624182_2a58o99irju.ttf?t=1675851660753') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-mendianzuoye:before {
+  content: "\e637";
+}
+
+.icon-gerenzhongxin:before {
+  content: "\e638";
+}
+
+.icon-zu:before {
+  content: "\e617";
+}
+
+.icon-duoxuan:before {
+  content: "\e669";
+}
+
+.icon-duoxuankuang:before {
+  content: "\e62e";
+}
+
+.icon-duoxuan1:before {
+  content: "\e6db";
+}
+
+.icon-yuanshuju-duoxuan:before {
+  content: "\e62c";
+}
+
+.icon-youjiantouxiao:before {
+  content: "\e606";
+}
+
+.icon-xiazai1:before {
+  content: "\e622";
+}
+
+.icon-xiaoxi:before {
+  content: "\e711";
+}
+
+.icon-24gl-playSquare:before {
+  content: "\ea72";
+}
+
+.icon-fenxiang:before {
+  content: "\e644";
+}
+
+.icon-liebiao2:before {
+  content: "\e600";
+}
+
+.icon-fangdajing:before {
+  content: "\e60b";
+}
+
+.icon-zuojiantou:before {
+  content: "\e625";
+}
+
+.icon-bofang:before {
+  content: "\e8a3";
+}
+
+.icon-bofangjilu:before {
+  content: "\e8ad";
+}
+
+.icon-bofang_o:before {
+  content: "\eb5e";
+}
+
+.icon-24gl-play:before {
+  content: "\ea6d";
+}
+
+.icon-bofangqi:before {
+  content: "\e613";
+}
+
+.icon-tuijian:before {
+  content: "\e60a";
+}
+
+.icon-paihangbang:before {
+  content: "\e7fe";
+}
+
+.icon-gedan:before {
+  content: "\e66d";
+}
+
+.icon-nav_icon_zhankai:before {
+  content: "\e616";
+}
+
+.icon-nav_icon_shouye:before {
+  content: "\e615";
+}
+
+.icon-sousuo:before {
+  content: "\e632";
+}
+
+.icon-nav_icon_mingluguanli:before {
+  content: "\e614";
+}
+
+.icon-cuodezhengfangxing:before {
+  content: "\e699";
+}
+
+.icon-ditu:before {
+  content: "\e69a";
+}
+
+.icon-a-dianhuamian:before {
+  content: "\e69b";
+}
+
+.icon-daohang:before {
+  content: "\e69c";
+}

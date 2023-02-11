@@ -1,0 +1,12 @@
+<!--pages/scan/scan.wxml-->
+<!-- 扫码页 -->
+<!-- 摄像机后置，闪光灯关闭，扫码成功后触发-->
+<view class="scan-box">
+  <camera class="scan-area" mode="scanCode" device-position="back" flash="off"
+  bindscancode="onScancode">
+  </camera>
+  <text class="sacn-text">将二维码/条码放入框内，即可自动扫描</text>
+</view>
+
+
+ 

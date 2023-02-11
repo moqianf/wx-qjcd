@@ -1,0 +1,22 @@
+ <view class="select-box">
+    <view class="row" 
+    wx:for-items="{{selectData}}"  
+    wx:key="id"
+    bindtap="clickSelect"
+    style="{{key==index?'background-color:#0a8cf2':''}}"
+    data-index="{{index}}"
+    >
+      <view class="row-left" >
+          <text class="timer">使用时间: {{item.time }}</text>
+          <view class="row-left-footer">
+            <text>体验值</text>
+            <!-- <view class="footer-image" wx:for="{{item.imgIdx}}"> -->
+              <image src="{{imgSrc}}" wx:for="{{item.imgIdx}}" />
+            <!-- </view> -->
+          </view>
+      </view>
+      <view class="row-right" style="{{key==index?'color:#FFDD2B':'#0a8cf2'}}">
+        <text>￥{{item.money}}</text>
+      </view>
+    </view>
+  </view>

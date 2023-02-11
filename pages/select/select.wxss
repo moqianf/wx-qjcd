@@ -1,0 +1,79 @@
+/* pages/select/select.wxss */
+page {
+  background-color: #f0f0f0;
+}
+
+/* 选择器大盒子 */
+.select-box {
+  margin:32rpx;
+  width: 100%;
+}
+
+/* 选择器盒子 */
+.select-box .row {
+  width: 686rpx;
+  height: 168rpx;
+  background-color: #ffffff;
+  border-radius: 24rpx;
+  opacity: 1;
+  margin-bottom: 32rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 32rpx;
+}
+.select-box .row:last-child{
+  margin-bottom:0;
+}
+/*选择盒右边盒子 */
+.select-box .row .row-right {
+  /* width: 11.66%; */
+  /* height: 28.57%; */
+  opacity: 1;
+  font-family: PingFang SC Bold;
+  font-size: 36rpx;
+  font-weight: normal;
+  line-height: 100rpx;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0px;
+  color: #0a8cf2;
+}
+.select-box .row .row-right text {
+  font-size: 50rpx;
+
+}
+/* .select-box .row .row-right text {
+  color: 0a8cf2;
+} */
+
+.row-left {
+  width: 66.76%;
+  /* height: 28.57%; */
+  font-family: SimHei;
+  
+}
+.row-left .timer {
+  font-size: 38rpx;
+  margin-bottom: 10rpx;
+  
+}
+
+.row-left-footer {
+  margin-top: 10rpx;
+  font-size: 24rpx;
+}
+.row-left-footer text{
+  margin-right: 5rpx;
+}
+
+.footer-image {
+  
+}
+.row-left-footer image {
+  width: 25rpx;
+  height: 25rpx;
+  margin:0 5rpx;
+
+}
